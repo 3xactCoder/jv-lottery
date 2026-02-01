@@ -7,7 +7,7 @@ public class Application {
 
         Lottery rand = new Lottery();
 
-        Ball[] arr = new Ball[3];
+        Ball[] arr = new Ball[MAX_BALL];
         for (int i = 0;i < MAX_BALL;i++) {
             arr[i] = rand.getRandomBall();
         }
